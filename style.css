@@ -612,5 +612,10 @@ text-align: center;
   text-decoration: none;
   color: #000;
 }
-
+.software{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
 
