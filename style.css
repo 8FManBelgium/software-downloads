@@ -551,6 +551,13 @@ text-align: center;
   .testimonial{
    display: none;
   }
+    .software iframe{
+    width: 350px;
+    height: 200;
+  }
+  .software h1{
+    text-align: center;
+  }
 }
 @media (max-width: 1200px){
   .videos{
@@ -582,6 +589,13 @@ text-align: center;
   }
   .testimonial{
    display: none;
+  }
+  .software iframe{
+    width: 350px;
+    height: 200px;
+  }
+   .software h1{
+    text-align: center;
   }
 }
 .text-two{
