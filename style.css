@@ -551,6 +551,11 @@ text-align: center;
   .testimonial{
    display: none;
   }
+    .video{
+    width: 350px;
+    height: 200px;
+    flex-direction: column;
+  }
 }
 @media (max-width: 1200px){
   .videos{
@@ -583,6 +588,11 @@ text-align: center;
   .testimonial{
    display: none;
   }
+  .video{
+    width: 350px;
+    height: 200px;
+    flex-direction: column;
+  }
 }
 .text-two{
   text-align: center;
@@ -612,10 +622,24 @@ text-align: center;
   text-decoration: none;
   color: #000;
 }
-.software{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 50px;
+h1{
+  text-align: center;
 }
+#over-my{
+  width: 100%;
+  height: 100vh;
+}
+.software-Page{
+ flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a;
+  padding: 20px;
+}
+.software-Page h1{
+  padding-top: 100px;
+  text-align: left;
+}
+
+
 
