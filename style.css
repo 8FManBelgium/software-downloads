@@ -509,8 +509,6 @@ text-align: center;
    font-size: 25px;
 }
 .videos{
-  width: 100%;
-  height: 100vh;
   margin-top: 50px;
   display: flex;
   justify-content: space-evenly;
@@ -525,9 +523,6 @@ text-align: center;
     flex-direction: column;
     background-color: #1a1a1a;
     overflow: hidden;
-    width: 100%;
-    height: 100%;
-    align-items: center;
   }
   .fotoshop {
     padding: 0;
@@ -556,22 +551,12 @@ text-align: center;
   .testimonial{
    display: none;
   }
- .video{
-    width: 350px;
-    height: 200px;
-  }
- h1{
-    text-align: center;
-  }
- 
 }
 @media (max-width: 1200px){
   .videos{
     flex-direction: column;
     background-color: #1a1a1a;
     overflow: hidden;
-    width: 100%;
-    height: 100%;
   }
   .fotoshop {
     flex-direction: column;
@@ -598,14 +583,6 @@ text-align: center;
   .testimonial{
    display: none;
   }
-.video{
-    width: 350px;
-    height: 200px;
-  }
-   h1{
-    text-align: center;
-  }
-
 }
 .text-two{
   text-align: center;
@@ -635,13 +612,5 @@ text-align: center;
   text-decoration: none;
   color: #000;
 }
- .software {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-}
-
 
 
