@@ -551,7 +551,7 @@ text-align: center;
   .testimonial{
    display: none;
   }
- iframe{
+ .video{
     width: 350px;
     height: 200px;
   }
@@ -590,7 +590,7 @@ text-align: center;
   .testimonial{
    display: none;
   }
- iframe{
+.video{
     width: 350px;
     height: 200px;
   }
