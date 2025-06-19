@@ -626,17 +626,14 @@ text-align: center;
   text-decoration: none;
   color: #000;
 }
-section #software {
+section3 .software {
   width: 100%;
-  height: 200vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 20px;
 }
-.software{
-  flex-direction: column;
-}
+
 
 
