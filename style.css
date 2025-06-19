@@ -636,8 +636,6 @@ text-align: center;
   color: #000;
 }
  .software {
-  width: 100%;
-  height: 200%;
   display: flex;
   flex-direction: column;
   align-items: center;
