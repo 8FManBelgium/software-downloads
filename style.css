@@ -563,12 +563,7 @@ text-align: center;
  h1{
     text-align: center;
   }
-    .software {
- resize: both;
- position: absolute;
-top: 300vh;
-width: 100%;
-   }
+ 
 }
 @media (max-width: 1200px){
   .videos{
@@ -610,12 +605,7 @@ width: 100%;
    h1{
     text-align: center;
   }
-   .software {
-resize: both;
-position: absolute;
-top: 300vh;
-width: 100%;
-   }
+
 }
 .text-two{
   text-align: center;
