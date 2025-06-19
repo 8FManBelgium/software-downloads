@@ -612,5 +612,15 @@ text-align: center;
   text-decoration: none;
   color: #000;
 }
+section #software {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.software{
+  flex-direction: column;
+}
 
 
