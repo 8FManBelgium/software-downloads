@@ -667,7 +667,7 @@ h1{
  margin-bottom: 20px;
  font-size: 18px;
 }
-.software-Page h1:hover{
+.software-Page button:hover{
   background: #22c55e;
   color: #fff;
 }
