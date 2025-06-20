@@ -675,7 +675,8 @@ h2{
   font-size: 25px;
   color: #f8de6e;
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
+  padding-top: 15px;
   text-align: center;
 }
 
