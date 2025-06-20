@@ -556,6 +556,13 @@ text-align: center;
     height: 200px;
     flex-direction: column;
   }
+  .software-Page{
+ flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a;
+  padding: 20px;
+}
 }
 @media (max-width: 1200px){
   .videos{
@@ -593,6 +600,13 @@ text-align: center;
     height: 200px;
     flex-direction: column;
   }
+  .software-Page{
+ flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a;
+  padding: 20px;
+}
 }
 .text-two{
   text-align: center;
@@ -630,12 +644,11 @@ h1{
   height: 100vh;
 }
 .software-Page{
- flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #1a1a1a;
-  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
+
 .software-Page h1{
   padding-top: 100px;
   text-align: left;
