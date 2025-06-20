@@ -674,9 +674,9 @@ h1{
 h2{
   font-size: 25px;
   color: #f8de6e;
-  margin-top: 15px;
-  margin-bottom: 25px;
-  padding-top: 15px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  padding-top:25px;
   text-align: center;
 }
 
