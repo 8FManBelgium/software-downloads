@@ -640,6 +640,15 @@ h1{
   padding-top: 100px;
   text-align: left;
 }
+.software-Page span{
+  color: #f8de6e;
+}
+.software-Page button{
+ width: 250px;
+ padding: 15px;
+ border-radius: 10px;
+ cursor: pointer;
+}
 
 
 
