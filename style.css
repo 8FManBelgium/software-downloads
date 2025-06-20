@@ -645,8 +645,11 @@ h1{
 }
 .software-Page{
   display: flex;
-  justify-content: space-around;
-  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a;
+  padding: 20px;
 }
 
 .software-Page h1{
