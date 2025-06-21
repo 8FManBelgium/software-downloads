@@ -32,7 +32,7 @@ opacity: 1;
 .header {
   color: #fff;
   position: absolute;
-  padding: 25px 10%;
+padding-top: 5px;
   top: 2%;
   right: 1%;
 }
@@ -518,7 +518,16 @@ text-align: center;
 .fotoshop{
   background-color: #1a1a1a;
 }
-@media (max-width: 600px){
+.navbar-toggle{
+  display: none;
+  background: transparent;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 10px
+}
+@media (max-width: 800px){
   .videos{
     flex-direction: column;
     background-color: #1a1a1a;
@@ -563,6 +572,34 @@ text-align: center;
   background-color: #1a1a1a;
   padding: 20px;
 }
+.navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.7rem !important;
+    position: absolute;
+    height: 100vh;
+    width: 130px;
+    top: 0;
+    right: 0;
+    padding: 5rem 1.5rem;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    z-index: 800;
+  }
+    .navbar a{
+    font-size: 10px;
+  
+  }
+  .navbar-toggle{
+    display: block;
+    z-index: 999;
+  }
+  .hero-container{
+    display: none;
+  }
+  .bg{
+    object-fit:fill;
+  }
 }
 @media (max-width: 1200px){
   .videos{
@@ -576,9 +613,8 @@ text-align: center;
       overflow: hidden;
       align-items: center;
   }
-  .navbar a{
-    font-size: 15px;
-  }
+ 
+ 
   #logo{
     width: 100px;
     top: 110px;
@@ -660,8 +696,8 @@ h1{
   color: #f8de6e;
 }
 .software-Page button{
- width: 350px;
- padding: 15px;
+ width: 200px;
+ padding: 2px;
  border-radius: 10px;
  cursor: pointer;
  margin-bottom: 20px;
@@ -679,6 +715,7 @@ h2{
   padding-top:25px;
   text-align: center;
 }
+
 
 
 
