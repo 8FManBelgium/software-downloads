@@ -717,9 +717,8 @@ h2{
 }
 .footer{
   width: 100%;
-  height: 100px;
 }
-  .copyright-text p{
+  .copyright-text h5{
 
     text-align: center;
     color: #000;
