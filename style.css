@@ -715,6 +715,19 @@ h2{
   padding-top:25px;
   text-align: center;
 }
+.footer{
+  width: 100%;
+  height: 100px;
+}
+  .copyright-text p{
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+    font-size: 20px;
+position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
 
 
 
