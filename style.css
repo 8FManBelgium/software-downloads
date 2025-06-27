@@ -655,8 +655,9 @@ c {
   transform: translate(-50%, -50%);
   font-size: 45px;
   color: #f8de6e;
-  background: #4ade80;
+  background: #2e2e2e;
   border-radius: 15px;
+  
 }
 #current-time {
   position: absolute;
