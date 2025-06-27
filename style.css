@@ -656,18 +656,16 @@ c {
   font-size: 45px;
   color: #f8de6e;
   border-radius: 15px;
-  
+  background: #252525;
 }
 #current-time {
   position: absolute;
   top: 50%;
   right: 10%;
-  font-size: 65px;
+  font-size: 45px;
   color: red;
 }
-.hero{
-background: #252525;
-}
+
 
 
 
