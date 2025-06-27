@@ -522,6 +522,9 @@ text-align: center;
   .bg{
     object-fit:fill;
   }
+.hero h7{
+  visibility: hidden;
+}
 }
 @media (max-width: 1200px){
   .videos{
@@ -529,10 +532,7 @@ text-align: center;
     background-color: #1a1a1a;
     overflow: hidden;
   }
-
- 
- 
-  #logo{
+#logo{
     width: 100px;
     top: 110px;
   }
@@ -560,6 +560,7 @@ text-align: center;
   background-color: #1a1a1a;
   padding: 20px;
 }
+
 }
 .text-two{
   text-align: center;
@@ -629,15 +630,33 @@ h2{
   padding-top:25px;
   text-align: center;
 }
-.hero h7 {
+c {
   position: absolute;
   top: 50%;
   right: 50%;
   font-size: 45px;
   color: #f8de6e;
 }
-#software-Page span{
+.software-Page h1{
   color: #fff;
+}
+#logo-gel{
+  width: 300px;
+  position: absolute;
+  left: 10%;
+  top: 65%;
+  animation: logoAnimatie 4s ;
+  opacity: 1;
+} 
+.hero h7{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+  color: #f8de6e;
+  background: #4ade80;
+  border-radius: 15px;
 }
 
 
