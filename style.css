@@ -655,7 +655,6 @@ c {
   transform: translate(-50%, -50%);
   font-size: 45px;
   color: #f8de6e;
-  background: #2e2e2e;
   border-radius: 15px;
   
 }
@@ -665,6 +664,9 @@ c {
   right: 10%;
   font-size: 65px;
   color: red;
+}
+.hero{
+background: #252525;
 }
 
 
