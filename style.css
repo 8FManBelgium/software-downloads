@@ -420,83 +420,14 @@ p {
     transform: translateX(-100%);
   }
 }
-.popup-container1{
-    position: absolute;
-    width: 50%;
-    height: 50;
-    z-index: 100;
-display: flex;
-justify-content: center;
-opacity: 0;
-pointer-events: none;
-}
-.popup-container2{
-    position: absolute;
-    z-index: 100;
-justify-content: center;
-opacity: 0;
-pointer-events: none;
-}
-.popup-container2 button{
-  border-radius: 15%;
-  background: red;
-  color: #fff;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-bottom: 15px;
-}
-.popup-container2.active{
-  opacity: 1;
-  pointer-events: auto;
-  background: #f8de6e;
-border-radius: 10px;
-color: #000;
 
-}
-.popup-container1.active{
-  opacity: 1;
-  pointer-events: auto;
-  transition: .4s ease;
-}
-.popup-box1{
-    width: 500px;
-    background: #fff;
-    color: #000;
-      list-style: none;
-      border-radius: 6px;
-  margin: 12px 0 20px;
-  padding: 30px;
-  transform: scale(0);
-}
-.popup-container1.active .popup-box1{
-    transform: scale(1);
-    transition: .4s ease;
-    transition-delay: .25s;
-}
-.popup-box1 li{
-    list-style: none
-}
-.popup-box1 .close-btn{
-  width: 100%;
-  height: 45px;
-  background: #22c55e;
-  border-radius: 6px;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  font-size:18px ;
-  color: #fff;
-  font-weight: 500;
-}
+
+
 
 .basis{
   font-size: 29px;
 }
-.hoofd-overmij{
-  width: 100%;
-  height: 100vh;
 
-}
 .text-one{
   margin-top: 60px;
 text-align: center;
@@ -533,14 +464,7 @@ text-align: center;
     background-color: #1a1a1a;
     overflow: hidden;
   }
-  .fotoshop {
-    padding: 0;
-    margin: 0;
-    flex-direction: column;
-      background-color: #1a1a1a;
-      overflow: hidden;
-      align-items: center;
-  }
+
   .navbar a{
     font-size: 15px;
   }
@@ -548,9 +472,7 @@ text-align: center;
     width: 100px;
     top: 110px;
   }
-  .info-side h1{
-    font-size: 10px;
-  }
+
   .info-side p{
    width: 300px;
   }
@@ -607,12 +529,7 @@ text-align: center;
     background-color: #1a1a1a;
     overflow: hidden;
   }
-  .fotoshop {
-    flex-direction: column;
-      background-color: #1a1a1a;
-      overflow: hidden;
-      align-items: center;
-  }
+
  
  
   #logo{
@@ -675,10 +592,7 @@ text-align: center;
 h1{
   text-align: center;
 }
-#over-my{
-  width: 100%;
-  height: 100vh;
-}
+
 .software-Page{
   display: flex;
   flex-direction: column;
@@ -715,7 +629,13 @@ h2{
   padding-top:25px;
   text-align: center;
 }
-
+.hero h7 {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  font-size: 45px;
+  color: #f8de6e;
+}
 
 
 
