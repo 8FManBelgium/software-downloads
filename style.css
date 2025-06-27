@@ -658,6 +658,13 @@ c {
   background: #4ade80;
   border-radius: 15px;
 }
+#current-time {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  font-size: 20px;
+  color: red;
+}
 
 
 
