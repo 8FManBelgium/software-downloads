@@ -494,21 +494,13 @@ text-align: center;
   background-color: #1a1a1a;
   padding: 20px;
 }
-
-
-  .hero-container{
-    display: none;
-  }
   .bg{
     object-fit:fill;
   }
-.hero h7{
-  font-size: 16px;
-  text-align: center;
-}
 #current-time{
   visibility: hidden;
 }
+
 }
 @media (max-width: 1200px){
   .videos{
@@ -655,7 +647,40 @@ c {
   font-size: 45px;
   color: red;
 }
-
-
+#toasts{
+  position: fixed;
+  bottom: 10px;
+  right: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.toast{
+  background-color: red;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-size: 24px;
+  border-radius: 10px;
+}
+@media (max-width: 500px){
+.hero h7{
+  width: 200px;
+  font-size: 15px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#logo-gel{
+  width: 150px;
+  position: absolute;
+  left: 10%;
+  top: 85%;
+}
+.toast{
+  font-size: 15px;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  left: 50%;
+}
+}
 
 
