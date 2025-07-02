@@ -6,6 +6,9 @@
   font-family: "Reem Kufi", sans-serif;
     scroll-behavior: smooth;
 }
+#logo-link {
+  cursor: default;
+}
 
 .bg {
   width: 100%;
