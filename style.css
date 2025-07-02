@@ -684,7 +684,6 @@ c {
   border-radius: 8px;
   left: 50%;
 }
-
 }
 
  .wave{
@@ -734,4 +733,10 @@ c {
     100%{
         background-position: 0;
     }
+}
+.table{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
