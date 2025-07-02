@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+           <button id="share">bekijk u locatie</button>
+       <pre id="result"></pre>
+                  <script>
+                const http = new XMLHttpRequest()
+let result = document.getElementById("#result")
+
+document.querySelector("#share").addEventListener("click", () => {
+    findMyCoordinates();
+})
+function findMyCoordinates() {
+    if(navigator.geolocation){
+        navigator.geolocation.getCurrentPosition((position) => {
+            const bdcAPI = `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${position.coords.latitude}&longitude=${position.coords.longitude}`
+            getAPI(bdcAPI)
+        },
+        (err) => {
+                alert(err.message)
+               })
+
+    }else{
+        alert("Geolocation is niet supported door u browser.");
+    }
+}
+function getAPI(bdcAPI){
+  http.open("GET", bdcAPI)
+  http.send()
+  http.onreadystatechange = function (){
+    if(this.readyState == 4 && this.status == 200){
+      console.log(this.responseText)
+      result.innerHTML = this.responseText;
+
+    }
+       
+  }
+}
+              </script>
+    
+</body>
+</html>
