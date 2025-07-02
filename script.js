@@ -33,3 +33,22 @@ function getRandomMessage() {
 
     ];
 }
+const http = new XMLHttpRequest();
+let result = document.getElementById("#result");
+
+document.getElementById("share").addEventListener("click", () => {
+    findMyCoordinates();
+});
+function findMyCoordinates() {
+    if(navigator.geolocation){
+        navigator.geolocation.getCurrentPosition((position) => {
+            console.log(position.coords.latitude, position.coords.longitude)
+        },
+        (err) => {
+                alert(err.message)
+               })
+
+    }else{
+        alert("Geolocation is niet supported door u browser.");
+    }
+}
