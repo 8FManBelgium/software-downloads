@@ -33,12 +33,12 @@ function getRandomMessage() {
 
     ];
 }
-const http = new XMLHttpRequest();
-let result = document.getElementById("#result");
+const http = new XMLHttpRequest()
+let result = document.getElementById("#result")
 
-document.getElementById("share").addEventListener("click", () => {
+document.querySelector("#share").addEventListener("click", () => {
     findMyCoordinates();
-});
+})
 function findMyCoordinates() {
     if(navigator.geolocation){
         navigator.geolocation.getCurrentPosition((position) => {
