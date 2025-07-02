@@ -684,6 +684,10 @@ c {
   border-radius: 8px;
   left: 50%;
 }
+#gmaps{
+  width: 350px;
+  height: 350px;
+}
 }
 
  .wave{
@@ -734,4 +738,12 @@ c {
         background-position: 0;
     }
 }
+#table{
 
+  width: 100%;
+  background-color: #252525;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

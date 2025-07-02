@@ -33,3 +33,10 @@ function getRandomMessage() {
 
     ];
 }
+$.getJSON('http://ip-api.com/json', function(data) {
+    $('#ip').text(data.query);
+    $('#isp').text(data.isp);
+    $('#country').text(data.country); 
+    $('#city').text(data.regionName);
+    $('#gmaps').attr("src", "https://www.google.com/maps?q=" + data.lat + "," + data.lon+"&output=embed ");
+})
