@@ -130,7 +130,8 @@ function getAPI(bdcAPI){
   http.onreadystatechange = function (){
     if(this.readyState == 4 && this.status == 200){
       console.log(this.responseText)
-      result.show = this.responseText
+      result.innerHTML = this.responseText;
+      const data = JSON.parse(this.responseText);
     }
        
   }
