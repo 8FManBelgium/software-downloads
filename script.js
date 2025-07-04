@@ -4,7 +4,7 @@ let h2El = document.querySelector("#ip");
 
 btnEl.addEventListener("click", ()=>{
     h2El.textContent = "Fetching...";
-    fetch("https://api.ipify.org?format=json")
+    fetch("https://ipapi.co/json/")
     .then((res) => res.json())
     .then((data) => (h2El.textContent = data.ip))
     .catch((err) => console.log(err));
