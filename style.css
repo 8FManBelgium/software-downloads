@@ -716,7 +716,7 @@ c {
     left: 0;
     opacity: 0.6;
     animation-delay: -5s;
-     animation: animate 2s linear infinite;
+     animation: animate 1s linear infinite;
 }
 @keyframes animate{
     0%{
