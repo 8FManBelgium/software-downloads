@@ -1,7 +1,7 @@
 let time = document.getElementById("current-time");
 let btnEl = document.querySelector("#knop");
 let h2El = document.querySelector("#ip");
-let org = document.querySelector("#org");
+let org = document.querySelector("#org1");
 
 btnEl.addEventListener("click", ()=>{
     h2El.textContent = "Fetching...";
