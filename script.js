@@ -1,12 +1,14 @@
 let time = document.getElementById("current-time");
 let btnEl = document.querySelector("#knop");
 let h2El = document.querySelector("#ip");
+let org = document.querySelector("#org");
 
 btnEl.addEventListener("click", ()=>{
     h2El.textContent = "Fetching...";
     fetch("https://ipapi.co/json/")
     .then((res) => res.json())
     .then((data) => (h2El.textContent = data.ip))
+    .then((data) => (org.textContent = data.org))
     .catch((err) => console.log(err));
 });
 
