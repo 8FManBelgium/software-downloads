@@ -33,3 +33,17 @@ function getRandomMessage() {
 
     ];
 }
+
+const ipElement = document.getElementById("ip");
+const countryElement = document.getElementById("country");  
+const cityElement = document.getElementById("city");
+const proElement = document.getElementById("provider");
+
+// Fetching IP and location data from ip-api.com
+fetch('http://ip-api.com/json/?fields=61439')
+.then((res) => res.json())
+.then((res) => {
+    ipElement.innerText = res.query;
+    countryElement.innerText = res.country;
+    proElement.innerText = res.as;
+})
