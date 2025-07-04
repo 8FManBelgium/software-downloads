@@ -1,14 +1,12 @@
 let time = document.getElementById("current-time");
 let btnEl = document.querySelector("#knop");
 let h2El = document.querySelector("#ip");
-let country = document.querySelector("#locatie");
 
 btnEl.addEventListener("click", ()=>{
     h2El.textContent = "Fetching...";
     fetch("https://api.ipify.org?format=json")
     .then((res) => res.json())
     .then((data) => (h2El.textContent = data.ip))
-    .then((data) => (country.textContent = data.country))
     .catch((err) => console.log(err));
 });
 
