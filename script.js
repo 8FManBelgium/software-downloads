@@ -39,10 +39,10 @@ let btnEl = document.querySelector("#knop");
 let h2El = document.querySelector("#ip");
 
 btnEl.addEventListener("click", ()=>{
-    h2El.innerText = "Fetching...";
+    h2El.textContent = "Fetching...";
     fetch("https://api.ipify.org?format=json")
-    .then((response) => response.json())
-    .then((data) => (h2El.innerText = data.ip))
+    .then((res) => res.json())
+    .then((data) => (h2El.textContent = data.ip))
     .catch((err) => console.log(err));
 });
  
