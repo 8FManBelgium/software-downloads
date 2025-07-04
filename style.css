@@ -738,6 +738,7 @@ c {
 
 #ip{
   animation: ipopasity 2s infinite;
+  opacity: 0;
 }
 @keyframes ipopasity{
   0%{
