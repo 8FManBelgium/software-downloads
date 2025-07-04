@@ -736,3 +736,14 @@ c {
 }
 
 
+#ip{
+  animation: ipopasity 2s infinite;
+}
+@keyframes ipopasity{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}

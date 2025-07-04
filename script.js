@@ -1,5 +1,4 @@
 let time = document.getElementById("current-time");
-let btnEl = document.querySelector("#knop");
 let h2El = document.querySelector("#ip");
 
 
