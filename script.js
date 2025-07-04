@@ -34,3 +34,15 @@ function getRandomMessage() {
     ];
 }
 
+
+let btnEl = document.querySelector("#button");
+let h2El = document.querySelector("#h2");
+
+btnEl.addEventListener("click", ()=>{
+    h2El.textContent = "Fetching...";
+    fetch("https://api.ipify.org?format=json")
+    .then((response) => response.json())
+    .then(data => h2El.textContent = data.ip)
+    .catch((err) => console.log(err));
+})
+ 
