@@ -734,21 +734,3 @@ c {
         background-position: 0;
     }
 }
-.table{
-
-background-color: #1a1a1a;
-width: 100%;
-text-align: center;
-color: #fff;
-}
-.table i{
-  color: red;
-}
-.table p{
-  border: 1px solid #fff;
-position: relative;
-left: 50%;
-transform: translateX(-50%);
-  width: 300px;
-
-}
