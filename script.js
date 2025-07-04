@@ -1,4 +1,16 @@
 let time = document.getElementById("current-time");
+let btnEl = document.querySelector("#knop");
+let h2El = document.querySelector("#ip");
+
+btnEl.addEventListener("click", ()=>{
+    h2El.textContent = "Fetching...";
+    fetch("https://api.ipify.org?format=json")
+    .then((res) => res.json())
+    .then((data) => (h2El.textContent = data.ip))
+    .catch((err) => console.log(err));
+});
+
+
 
 setInterval(() => {
 
@@ -35,14 +47,7 @@ function getRandomMessage() {
 }
 
 
-let btnEl = document.querySelector("#knop");
-let h2El = document.querySelector("#ip");
 
-btnEl.addEventListener("click", ()=>{
-    h2El.textContent = "Fetching...";
-    fetch("https://api.ipify.org?format=json")
-    .then((res) => res.json())
-    .then((data) => (h2El.textContent = data.ip))
-    .catch((err) => console.log(err));
-});
+
+
  
