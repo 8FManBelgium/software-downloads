@@ -9,7 +9,7 @@ btnEl.addEventListener("click", ()=>{
     fetch("https://ipapi.co/json/")
     .then((res) => res.json())
     .then((data) => (h2El.textContent = data.ip))
-    .then((data) => (locatie.textContent = data.country_name))
+    .then((data) => (locatie.textContent = data.ip))
     .catch((err) => console.log(err));
 });
 
