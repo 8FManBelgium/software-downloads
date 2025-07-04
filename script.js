@@ -42,7 +42,7 @@ btnEl.addEventListener("click", ()=>{
     h2El.innerText = "Fetching...";
     fetch("https://api.ipify.org?format=json")
     .then((response) => response.json())
-    .then(data => h2El.innerText = data.ip)
+    .then((data) => (h2El.innerText = data.ip))
     .catch((err) => console.log(err));
-})
+});
  
