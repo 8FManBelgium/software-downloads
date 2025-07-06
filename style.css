@@ -643,7 +643,7 @@ c {
     bottom: 0;
     left: 0;
     background: url(wave.png);
-    animation: animate 2s linear infinite;
+    animation: animate 12s linear infinite;
 }
  .wave::before{
     content: '';
@@ -654,7 +654,7 @@ c {
     top: 0;
     left: 0;
     opacity: 0.4;
-     animation: animate-reverse 5s linear infinite;
+     animation: animate-reverse 10s linear infinite;
 }
  .wave::after{
     content: '';
