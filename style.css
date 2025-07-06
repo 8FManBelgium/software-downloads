@@ -643,7 +643,7 @@ c {
     bottom: 0;
     left: 0;
     background: url(wave.png);
-    animation: animate 10s linear infinite;
+    animation: animate 30s linear infinite;
 }
  .wave::before{
     content: '';
@@ -666,7 +666,7 @@ c {
     left: 0;
     opacity: 0.6;
     animation-delay: -5s;
-     animation: animate 10s linear infinite;
+     animation: animate 30s linear infinite;
 }
 @keyframes animate{
     0%{
