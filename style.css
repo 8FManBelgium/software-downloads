@@ -704,7 +704,7 @@ c {
     top: 0;
     left: 0;
     opacity: 0.4;
-     animation: animate-reverse 10s linear infinite;
+     animation: animate-reverse 5s linear infinite;
 }
  .wave::after{
     content: '';
