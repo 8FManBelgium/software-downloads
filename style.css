@@ -559,13 +559,6 @@ h2{
   padding-top:25px;
   text-align: center;
 }
-c {
-  position: absolute;
-  top: 50%;
-  right: 50%;
-  font-size: 45px;
-  color: #f8de6e;
-}
 .software-Page h1{
   color: #fff;
 }
@@ -697,4 +690,10 @@ c {
   100%{
     opacity: 1;
   }
+}
+#tooltip{
+  color: red;
+  font-size: 20px;
+  background-color: white;
+  border: 2px solid red;
 }
