@@ -697,3 +697,13 @@ h2{
   background-color: white;
   border: 2px solid red;
 }
+.counter-container{
+  position: relative;
+left: 50%;
+transform: translate(-50% -50%);
+margin-top: 15px;
+
+}
+.counter h2{
+  color: #fff;
+} 
