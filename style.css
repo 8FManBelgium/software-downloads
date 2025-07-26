@@ -628,6 +628,7 @@ h2{
   padding: 0.5rem 1rem;
   border-radius: 8px;
   left: 50%;
+  z-index: 1000;
 }
 }
 
