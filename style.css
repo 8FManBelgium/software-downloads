@@ -600,6 +600,7 @@ h2{
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  z-index: 1000;
 }
 .toast{
   background-color: red;
@@ -607,6 +608,7 @@ h2{
   padding: 1rem 2rem;
   font-size: 24px;
   border-radius: 10px;
+  z-index: 1000;
 }
 @media (max-width: 500px){
 .hero h7{
