@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8fmanbelgium contact form</title>
+    <link rel="stylesheet" href="style2.css">
+      <link
+      href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <div class="container">
+        <h1>Mail Mij</h1>
+        <p>Ik Zal Zo Snell Mogelijk Antwoorden Op U Mail</p>
+        <form action="mail.php" method="POST">
+           <label for="name">Naam:</label>
+           <input type="text" name="name" id="name" placeholder="Uw Naam" required>
+           <label for="email" >Email:</label>
+           <input type="email" name="email" id="email" placeholder="Uw Email" required>
+           <label for="subject">Onderwerp:</label>
+           <input type="text" name="subject" id="subject" placeholder="Uw Onderwerp" >
+           <label for="message">Bericht:</label>
+           <textarea name="message" cols="30" rows="10"></textarea>
+           <input type="submit" value="Verstuur">
+        </form>
+    </div>
+</body>
+</html>
