@@ -574,7 +574,7 @@ h2{
 .hero h7{
   position: absolute;
   width: 450px;
-  top: 50%;
+  top: 2%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 25px;
