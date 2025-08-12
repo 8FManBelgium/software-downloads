@@ -624,10 +624,12 @@ h2{
   top: 85%;
 }
 .toast{
+  position: absolute;
   font-size: 15px;
   padding: 0.5rem 1rem;
   border-radius: 8px;
   left: 50%;
+  top:2%;
   z-index: 1000;
 }
 }
