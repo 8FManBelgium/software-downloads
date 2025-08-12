@@ -574,7 +574,7 @@ h2{
 .hero h7{
   position: absolute;
   width: 450px;
-  top: 2%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 25px;
@@ -595,7 +595,7 @@ h2{
 }
 #toasts{
   position: absolute;
-top: 2%;
+top: 10%;
 left: 50%;
 transform: translateX(-50%);
   z-index: 1000;
